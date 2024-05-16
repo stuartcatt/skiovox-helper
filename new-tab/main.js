@@ -7,7 +7,7 @@ import { BackgroundController } from "./background-controller.js";
 
 const WIFI_URL = "chrome://network/#select";
 const BLUETOOTH_URL = "chrome://bluetooth-pairing";
-const SETTINGS_URL = "chrome://settings";
+const SETTINGS_URL = "chrome://os-settings";
 const NEW_TAB_URL = "chrome://new-tab-page";
 const FILES_URL = "chrome://file-manager";
 const HELP_URL = "https://github.com/bypassiwastaken/skiovox-helper";
