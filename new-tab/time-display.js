@@ -37,10 +37,10 @@ class TimeDisplay {
                 this.element.textContent = `${time.hours}:${time.minutes}`
                 break;
             case TimeStyles.AM_PM:
-                this.element.textContent = `${time.hoursAmerican}:${time.minutes}:${time.seconds} ${time.amPm}`
+                this.element.textContent = `${time.hours}:${time.minutes}:${time.seconds} ${time.amPm}`
                 break;
             case TimeStyles.AM_PM_NO_SECONDS:
-                this.element.textContent = `${time.hoursAmerican}:${time.minutes} ${time.amPm}`
+                this.element.textContent = `${time.hours}:${time.minutes} ${time.amPm}`
                 break;
         }
     }
